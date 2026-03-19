@@ -1,0 +1,125 @@
+/* ===========================
+   تنسيق الجسم العام
+=========================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0 20px;
+}
+
+/* ===========================
+   Navbar (التنقل بين الصفحات)
+=========================== */
+nav {
+    background-color: #008080; /* لون خلفية Navbar */
+    padding: 10px;
+    text-align: center; /* يجعل الروابط في الوسط */
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px; /* المسافة بين الروابط */
+    font-weight: bold;
+    color: white; /* لون الروابط */
+}
+
+nav a:hover {
+    text-decoration: underline; /* تأثير عند المرور بالماوس */
+}
+
+/* ===========================
+   العناوين
+=========================== */
+h1, h2 {
+    color: #008080;
+    text-align: center;
+}
+
+/* ===========================
+   الصور
+=========================== */
+img {
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* ===========================
+   القوائم (Soft Skills)
+=========================== */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* ===========================
+   جدول الأدوات
+=========================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #20b2aa;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* ===========================
+   الفقرات
+=========================== */
+p {
+    line-height: 1.6;
+}
+
+/* ===========================
+   الفوتر
+=========================== */
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+/* ===========================
+   تنسيق النموذج (Contact Form)
+=========================== */
+form {
+    background-color: #f0f8ff;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #006666;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me - Safaa Shaheen</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript Validation -->
+    <script>
+        function validateForm() {
+            var fullname = document.contactForm.fullname.value.trim();
+            var email = document.contactForm.email.value.trim();
+            var country = document.contactForm.country.value.trim();
+            var comments = document.contactForm.comments.value.trim();
+
+            if (fullname === "" || email === "" || country === "" || comments === "") {
+                alert("Please fill in all fields.");
+                return false;
+            }
+
+            alert("Form submitted successfully! Thank you.");
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+
+    <hr>
+
+    <h1>Contact Me</h1>
+
+    <form name="contactForm" onsubmit="return validateForm();">
+        
+        <label>Full Name:</label>
+        <input type="text" name="fullname">
+
+        <label>Email Address:</label>
+        <input type="email" name="email">
+
+        <label>Country:</label>
+        <input type="text" name="country">
+
+        <label>Comments:</label>
+        <textarea name="comments" rows="5"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>© 2026 Safaa Shaheen</p>
+    </footer>
+
+</body>
+</html>
